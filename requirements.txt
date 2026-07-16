@@ -1,0 +1,10 @@
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+scipy==1.16.3
+statsmodels==0.14.6
+scikit-learn==1.6.1
+tensorflow==2.20.0
+requests==2.32.4
+holidays==0.99
+openpyxl==3.1.5

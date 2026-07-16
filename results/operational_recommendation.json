@@ -1,0 +1,5 @@
+{
+  "model": "Seasonal Naive",
+  "rmse": 2988.2483488169673,
+  "reason": "No non-conditional model produced a statistically significant improvement. Seasonal naive therefore offers the strongest balance of accuracy, transparency, maintenance cost and robustness."
+}

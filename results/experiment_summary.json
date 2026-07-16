@@ -1,0 +1,22 @@
+{
+  "data_start": "2015-01-01 00:00:00+00:00",
+  "data_end": "2020-09-30 23:00:00+00:00",
+  "weekly_observations": 299,
+  "weekly_training_observations": 195,
+  "weekly_test_observations": 104,
+  "seasonal_strength": 0.8829320051747941,
+  "trend_strength": 0.4348244667451391,
+  "best_sarima_order": "(0, 1, 6)",
+  "best_sarima_seasonal_order": "(0, 1, 1, 52)",
+  "best_sarima_optimizer": "lbfgs",
+  "sarima_robust_search_aic": 2550.636573280521,
+  "sarima_final_refit_aic": 2550.636573280521,
+  "sarima_aic_absolute_difference": 0.0,
+  "lowest_numerical_rmse_model": "Gradient Boosting (Conditional)",
+  "lowest_numerical_rmse": 2864.396612650059,
+  "operational_recommendation": {
+    "model": "Seasonal Naive",
+    "rmse": 2988.2483488169673,
+    "reason": "No non-conditional model produced a statistically significant improvement. Seasonal naive therefore offers the strongest balance of accuracy, transparency, maintenance cost and robustness."
+  }
+}

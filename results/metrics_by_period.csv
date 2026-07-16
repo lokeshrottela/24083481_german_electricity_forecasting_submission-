@@ -1,0 +1,21 @@
+Period,Model,RMSE,MAE,MAPE (%)
+Before March 2020,Gradient Boosting (Conditional),1857.341,1386.742,2.518
+Before March 2020,Seasonal Naive,1887.023,1485.933,2.671
+Before March 2020,Random Forest (Conditional),2011.191,1492.16,2.732
+Before March 2020,SARIMAX: Temperature + Holiday (Conditional),2424.401,2043.347,3.687
+Before March 2020,SARIMAX: Temperature (Conditional),3097.679,2611.282,4.701
+Before March 2020,SARIMA,3360.456,2854.248,5.118
+Before March 2020,Naive,3884.595,3272.037,5.763
+Before March 2020,Drift,3885.752,3272.807,5.763
+Before March 2020,Mean,3975.487,3324.785,5.814
+Before March 2020,LSTM: Aggregated Weekly,6601.876,5112.827,8.617
+From March 2020,LSTM: Aggregated Weekly,3697.536,3193.137,6.341
+From March 2020,Gradient Boosting (Conditional),4464.739,4210.403,8.364
+From March 2020,Seasonal Naive,4708.779,4268.129,8.513
+From March 2020,Random Forest (Conditional),4749.98,4380.726,8.763
+From March 2020,Mean,5309.715,4936.993,9.852
+From March 2020,Drift,5649.26,5276.431,10.531
+From March 2020,Naive,5676.598,5303.889,10.586
+From March 2020,SARIMAX: Temperature + Holiday (Conditional),6557.737,6335.34,12.555
+From March 2020,SARIMAX: Temperature (Conditional),7410.593,7140.817,14.159
+From March 2020,SARIMA,7515.226,7273.641,14.405

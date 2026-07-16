@@ -1,0 +1,20 @@
+{
+  "notebook": "24083481_German_Electricity_Demand_Forecasting.ipynb",
+  "student": "Lokesh Rottela",
+  "student_id": "24083481",
+  "python": "3.12.13",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "random_seed": 42,
+  "package_versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.3",
+    "statsmodels": "0.14.6",
+    "scikit-learn": "1.6.1",
+    "tensorflow": "2.20.0",
+    "requests": "2.32.4",
+    "holidays": "0.99",
+    "openpyxl": "3.1.5"
+  }
+}

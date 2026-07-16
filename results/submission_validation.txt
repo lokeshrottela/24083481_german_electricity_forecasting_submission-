@@ -1,0 +1,13 @@
+SUBMISSION VALIDATION PASSED
+
+The executed notebook confirmed:
+- all 147 required p, d and q screening combinations were completed;
+- seasonal refinement and constrained AIC refits were completed;
+- the final SARIMA fit converged and reproduced the robust-search AIC;
+- prediction-interval diagnostics were generated;
+- all ten required weekly model rows were present exactly once;
+- core metrics were finite and complete;
+- temperature-informed models were labelled as conditional;
+- structural-change analysis and required figures were generated.
+
+The notebook outputs are preserved inside the submitted .ipynb file.

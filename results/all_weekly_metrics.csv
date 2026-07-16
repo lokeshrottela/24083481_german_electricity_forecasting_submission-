@@ -1,0 +1,11 @@
+Model,RMSE,MAE,MAPE (%),sMAPE (%),MASE,R2,Forecast protocol,AIC,BIC,PI coverage (%),PI mean width (MW),RMSE improvement vs Seasonal Naive (%),p-value,Significant improvement at 5%
+Gradient Boosting (Conditional),2864.397,2201.26,4.205,4.071,1.629,0.57,Conditional recursive (observed test temperature),,,,,4.145,0.509,False
+Seasonal Naive,2988.248,2288.489,4.356,4.207,1.694,0.532,Fixed-origin,,,,,0.0,,False
+Random Forest (Conditional),3063.732,2325.4,4.472,4.312,1.721,0.508,Conditional recursive (observed test temperature),,,,,-2.526,0.657,False
+SARIMAX: Temperature + Holiday (Conditional),4072.739,3281.422,6.245,5.947,2.429,0.13,Conditional fixed-origin (observed test temper...,2462.688,2498.157,100.0,30037.111,-36.292,0.0,False
+Mean,4402.059,3789.845,6.979,6.874,2.805,-0.017,Fixed-origin,,,,,-47.312,0.0,False
+Drift,4466.494,3850.776,7.139,6.982,2.85,-0.046,Fixed-origin,,,,,-49.469,0.0,False
+Naive,4475.767,3858.148,7.154,6.995,2.856,-0.051,Fixed-origin,,,,,-49.779,0.0,False
+SARIMAX: Temperature (Conditional),4761.204,3917.879,7.429,7.027,2.9,-0.189,Conditional fixed-origin (observed test temper...,2548.603,2575.205,100.0,43632.395,-59.331,0.0,False
+SARIMA,4932.249,4129.073,7.797,7.371,3.056,-0.276,Fixed-origin,2550.637,2574.283,100.0,45874.052,-65.055,0.0,False
+LSTM: Aggregated Weekly,5912.361,4559.07,7.96,8.341,3.374,-0.834,"Fixed-origin recursive hourly, aggregated weekly",,,,,-97.854,0.007,False
